@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "postcss-preset-env": "^8.3.2",
+    "sass": "^1.62.1",
     "vite": "^4.3.5"
   }
 }
