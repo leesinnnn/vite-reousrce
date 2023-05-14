@@ -1,7 +1,7 @@
-import styles from './index.module.scss';
-import tickSvg from './asserts/tick.svg?raw';
-import { a } from './asserts/test.json';
-const root = document.getElementById('root');
-root?.classList.add(styles.root)
-root && (root.innerHTML = tickSvg);
-console.log(a, 'a')
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './app';
+const container = document.getElementById('root')!;
+const root = createRoot(container);
+
+root.render(React.createElement(App));
